@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0d1e54ea.css",
+    "main.js": "/static/js/main.c6b620ab.js",
+    "static/js/453.36de88c4.chunk.js": "/static/js/453.36de88c4.chunk.js",
+    "static/media/user-avater-full.png": "/static/media/user-avater-full.8e10e72f737264ef2bde.png",
+    "service-worker.js": "/service-worker.js",
+    "static/media/logo.svg": "/static/media/logo.a493255c8a105e113198789d275c2f8a.svg",
+    "static/media/settings-icon.svg": "/static/media/settings-icon.3099b97e8224a3b45ec80dff0514b53e.svg",
+    "static/media/service.svg": "/static/media/service.b7a536cd3c4db852be78d9d3131e9a41.svg",
+    "static/media/loan.svg": "/static/media/loan.253c0400557ed242a30043415d613c42.svg",
+    "static/media/economic-investment.svg": "/static/media/economic-investment.f502b9a8e9cbd89dce88a3a6c4f1cb3c.svg",
+    "static/media/transfer.svg": "/static/media/transfer.598ce3d8ca44db6846cc89f3c106972e.svg",
+    "static/media/econometrics.svg": "/static/media/econometrics.495ea12b510b0f11e7e0fc38b36d00de.svg",
+    "static/media/notification-icon.svg": "/static/media/notification-icon.8680dfecc1ea7acd4d23f00c2cffadf7.svg",
+    "static/media/user.svg": "/static/media/user.e59487983f7111269059dce45e210e87.svg",
+    "static/media/credit-card.svg": "/static/media/credit-card.fda63c2ea00ddf5db03c4d230057acb9.svg",
+    "static/media/setting.svg": "/static/media/setting.c6b887adb02e9df3653ce1bab9919550.svg",
+    "index.html": "/index.html",
+    "static/media/pencil.svg": "/static/media/pencil.2a181bc658f7b5b284d219eeeb42cd60.svg",
+    "static/media/home.svg": "/static/media/home.18b76598c5d8a1f27a4a345133b5240f.svg",
+    "static/media/search-icon.svg": "/static/media/search-icon.99e5a2a1a760ad1ffd01ba90248a056d.svg",
+    "main.0d1e54ea.css.map": "/static/css/main.0d1e54ea.css.map",
+    "main.c6b620ab.js.map": "/static/js/main.c6b620ab.js.map",
+    "453.36de88c4.chunk.js.map": "/static/js/453.36de88c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d1e54ea.css",
+    "static/js/main.c6b620ab.js"
+  ]
+}
