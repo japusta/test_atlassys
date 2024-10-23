@@ -1,0 +1,183 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1356px;
+    height: 60px;
+    padding: 20px 44px;
+    padding-right: 40px;
+    background-color: #fff;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        height: 60px;
+        width: 183px;
+        .header__logo__img {
+            margin-right: 9px;
+            width: 36px;
+            height: 36px;
+        }
+        h1 {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 25px;
+            font-weight: 900;
+            line-height: 31.95px;
+            color: #343c6a;
+        }
+        }
+    
+        h2 {
+        width: 98px;
+        height: 34px;
+        margin: 0;
+        margin-left: 61px;
+        font-family: 'Inter', sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 33.89px;
+        color: #343c6a;
+        }
+    .burger-icon {
+        display: none;
+        background: none;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .header__search {
+        display: flex;
+        align-items: center;
+        background-color: #f0f0f0;
+        height: 50px;
+        border-radius: 40px;
+        width: 255px;
+        margin-left: 502px;
+        margin-right: 30px;
+        input {
+            width: 152px;
+            height: 18px;
+            padding: 16px 43px 16px 15px;
+            border: none;
+            background: none;
+            font-size: 16px;
+            outline: none;
+        }
+        ::placeholder {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 18.15px;
+            color: #8ba3cb;
+        }
+        img {
+            width: 20px;
+            height: auto;
+        }
+        .header__search__icon {
+            padding-left: 25px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            cursor: pointer;
+        }
+    }
+        .header__icons {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            cursor: pointer;
+            .icon-wrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background-color: #f0f0f0;
+                border: 1px solid #f0f0f0;
+                img {
+                width: 25px;
+                height: 25px;
+                }
+            }
+            .header__avatar {
+                margin-left: 5px;
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+            }
+            &.open {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                right: 0;
+                width: 100%;
+                background-color: #fff;
+                padding: 20px;
+            }
+        }
+}
+
+@media only screen and (max-width: 425px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 387px;
+        height: 140px; /* Автоматическая высота для адаптации */
+        padding: 0px;
+    }
+    .burger-icon {
+        width: 20px !important;
+        margin-left: 25px;
+        display: block !important;
+        font-size: 24px;
+        padding: 0px;
+        order: -2; /* Бургер-меню вторым */
+    }
+    .header h2 {
+        width: 60px !important;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 100px;
+        font-size: 20px;
+        margin: 0;
+        order: 0; /* Заголовок посередине */
+        flex-grow: 1;  
+    }
+    .header__avatar {
+        margin-right: 26px;
+        width: 35px !important;
+        height: 35px !important;
+        border-radius: 50%;
+        order: 7; /* Аватар первым */
+    }
+    .header__search {
+        width: 325px !important;
+        height: 40px !important;
+        margin-left: 25px !important; 
+        padding: 0; 
+        order: 6; /* Строка поиска ниже */
+        max-width: 325px;
+        background-color: #f0f0f0; 
+        position: relative;
+    }
+    .header__search input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 25px;
+        border: none;
+        max-width: 300px;
+    }
+    .header__search__icon {
+        padding-left: 20px;
+    }
+    .header__logo {
+        display: none;
+    }
+    .header__icons .icon-wrapper {
+        display: none !important;
+    }
+}

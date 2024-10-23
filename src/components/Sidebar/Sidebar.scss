@@ -1,0 +1,78 @@
+.sidebar {
+  width: 249px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 31px 0;
+  border-right: 1px solid #E6EFF5;
+  margin-right: 10px;
+  ul {
+    width: 211px;
+    height: 505px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      display: flex;
+      align-items: center;
+      margin-left: 44px;
+      padding-bottom: 42px;
+      font-family: 'Inter', sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 21.78px;
+      color: #b1b1b1;
+      cursor: pointer;
+      position: relative;
+      transition: background-color 0.2s, color 0.2s;
+      .icon {
+        margin-right: 26px;
+        width: 25px;
+        height: 25px;
+        transition: fill 0.2s ease-in-out;
+        fill: #b1b1b1;
+      }
+      &:hover {
+        color: #1814f3;
+        .icon {
+          fill: #1814f3;
+        }
+        &::before {
+          content: '';
+          position: absolute;
+          left: -40px;
+          top: 5px;
+          transform: translateY(-40%);
+          width: 6px;
+          height: 60px;
+          background-color: #1814f3;
+          border-radius: 0 5px 5px 0;
+        }
+      }
+      &.active {
+        background-color: #1814f3;
+        color: #fa0c0c;
+        font-weight: 600;
+        .icon {
+          fill: #1814f3;
+        }
+      }
+    }
+  }
+  /* Медиазапрос для адаптива */
+  @media (max-width: 425px) {
+    display: none; /* Скрываем sidebar по умолчанию на мобильных */
+    &.open {
+      display: block; /* Показываем, когда бургер-меню открыто */
+      position: absolute;
+      left: 0;
+      top: 5%;
+      z-index: 1000;
+      width: 122%;
+      height: 600px;
+      background-color: white;
+      padding: 31px 0;
+    }
+  }
+}
