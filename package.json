@@ -1,5 +1,6 @@
 {
   "name": "bank-dashboard",
+  "homepage": "https://japusta.github.io/test_atlassys/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
